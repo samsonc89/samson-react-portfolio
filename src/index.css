@@ -36,10 +36,13 @@ a {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 15vw;
   text-align: center;
-  scroll-behavior: smooth;
 }
 
 svg {
@@ -50,6 +53,7 @@ svg {
   display: flex;
   scroll-margin-top: 9vh;
   min-height: 80vh;
+  justify-content: center;
 }
 
 .section-heading {
