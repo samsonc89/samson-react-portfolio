@@ -30,3 +30,9 @@ body {
   text-align: center;
   scroll-behavior: smooth;
 }
+
+.section-container {
+  display: flex;
+  scroll-margin-top: 9vh;
+  min-height: 80vh;
+}
