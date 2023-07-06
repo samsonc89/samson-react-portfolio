@@ -1,12 +1,14 @@
 :root {
+  --bg-color: #222020;
+  --project-bg-color: #2e2b2b;
+  --head-color: #ffffff;
   --text-color: #dedede;
   font-family: Domine, system-ui, Avenir, Helvetica, Arial, serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--bg-color);
 }
 
 * {
@@ -23,5 +25,4 @@ a {
 body {
   margin: 0 15vw;
   text-align: center;
-  line-height: 1.5;
 }
