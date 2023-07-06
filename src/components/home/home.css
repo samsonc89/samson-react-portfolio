@@ -39,3 +39,9 @@
   background: #c13636a7;
   transform: rotate(-3deg);
 }
+
+@media screen and (max-width: 480px) {
+  #home > h2 {
+    padding-left: 0;
+  }
+}
