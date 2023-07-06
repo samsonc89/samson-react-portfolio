@@ -1,15 +1,16 @@
 :root {
   --bg-color: #222020;
   --project-bg-color: #2e2b2b;
-  --head-color: #ffffff;
+  --heading-color: #ffffff;
   --text-color: #dedede;
+  --toggle-button: url(./assets/light.svg) no-repeat;
   font-family: Domine, system-ui, Avenir, Helvetica, Arial, serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
+  color: var(--text-color);
   background-color: var(--bg-color);
-  --toggle-button: url(./assets/light.svg) no-repeat;
 }
 
 :root.light {
@@ -53,4 +54,5 @@ svg {
 
 .section-heading {
   font-size: 3rem;
+  color: var(--heading-color);
 }
