@@ -36,3 +36,7 @@ body {
   scroll-margin-top: 9vh;
   min-height: 80vh;
 }
+
+.section-heading {
+  font-size: 3rem;
+}
