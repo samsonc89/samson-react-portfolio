@@ -2,7 +2,7 @@ import { Navbar, Home, Projects } from "./components";
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
       <Navbar />
       <Home />
       <Projects />
