@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <NavLinks />
-      <button id="btn--theme-toggle">Toggle</button>
+      <button id="btn--theme-toggle"></button>
     </div>
   );
 };
