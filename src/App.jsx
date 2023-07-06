@@ -1,10 +1,11 @@
-import { Navbar, Home } from "./components";
+import { Navbar, Home, Projects } from "./components";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
+      <Projects />
     </div>
   );
 }
