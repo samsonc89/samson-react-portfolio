@@ -9,6 +9,15 @@
 
   color-scheme: light dark;
   background-color: var(--bg-color);
+  --toggle-button: url(./assets/light.svg) no-repeat;
+}
+
+:root.light {
+  --bg-color: #ffffff;
+  --project-bg-color: #f2f2f2;
+  --head-color: #000000;
+  --text-color: #000;
+  --toggle-button: url(./assets/dark.svg) no-repeat;
 }
 
 * {
