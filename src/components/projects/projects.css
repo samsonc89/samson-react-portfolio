@@ -1,5 +1,6 @@
 #projects {
   flex-direction: column;
+  margin-bottom: 15vh;
 }
 
 .projects-container {
@@ -48,6 +49,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  #projects {
+    margin-bottom: 10vh;
+  }
   .projects-container {
     justify-content: center;
   }
