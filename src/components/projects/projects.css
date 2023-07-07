@@ -1,0 +1,33 @@
+.project-card {
+  width: 45%;
+  min-height: 450px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-thumbnail-container,
+.project-thumbnail {
+  width: 100%;
+  border-radius: 15px;
+}
+.project-thumbnail-container {
+  height: 50%;
+}
+.project-thumbnail {
+  object-fit: cover;
+  height: 100%;
+}
+
+#projects {
+  flex-direction: column;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
