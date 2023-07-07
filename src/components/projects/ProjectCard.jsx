@@ -13,7 +13,7 @@ const ProjectCard = ({ projectData: project }) => {
       <p className="project-description">{project.description}</p>
       <div className="icon-container">
         <div className="icon-wrapper">
-          <a href={project.github} target="_blank" rel="noreferrer">
+          <a href={project.code} target="_blank" rel="noreferrer">
             <GitIcon />
           </a>
         </div>
