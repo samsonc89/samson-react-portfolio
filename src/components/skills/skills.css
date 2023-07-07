@@ -1,3 +1,11 @@
+.skills-container {
+  margin-top: 5vh;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .skills-icon {
   height: 120px;
   width: auto;
