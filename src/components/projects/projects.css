@@ -9,7 +9,7 @@
 }
 
 .project-card {
-  background-color: #3b67b5;
+  background-color: var(--project-bg-color);
 
   width: 45%;
   min-height: 450px;
