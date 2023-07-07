@@ -17,11 +17,35 @@ const NavLinks = () => (
   </>
 );
 
+function isDark() {
+  return localStorage.getItem("dark-mode");
+}
+
+function toggleDarkClass() {
+  const root = document.querySelector(":root");
+  root.classList.toggle("light");
+}
+
+function toggleLocalStorageItem() {
+  if (isDark()) {
+    localStorage.removeItem("dark-mode");
+  } else {
+    localStorage.setItem("dark-mode", "set");
+  }
+}
+
 const Navbar = () => {
   return (
     <div className="navbar">
       <NavLinks />
-      <button id="btn--theme-toggle"></button>
+      <button
+        id="btn--theme-toggle"
+        onClick={(e) => {
+          e.preventDefault();
+          toggleLocalStorageItem();
+          toggleDarkClass();
+        }}
+      ></button>
     </div>
   );
 };
