@@ -76,4 +76,7 @@ svg {
   body {
     margin: 0 10vw;
   }
+  .section-container {
+    max-width: 100%;
+  }
 }
