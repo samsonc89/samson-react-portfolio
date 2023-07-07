@@ -58,7 +58,7 @@ svg {
   display: flex;
   scroll-margin-top: 9vh;
   min-height: 80vh;
-  justify-content: center;
+
   max-width: 700px;
 }
 
