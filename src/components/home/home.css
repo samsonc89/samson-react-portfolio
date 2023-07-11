@@ -1,6 +1,8 @@
 #home {
   height: 90vh;
-  justify-content: center;
+  padding-top: 25vh;
+  /* justify-content: center; */
+  position: relative;
 }
 
 #home > h2 {
@@ -40,6 +42,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  #home {
+    padding-top: 10vh;
+  }
+
   #home > h2 {
     padding-left: 0;
   }
