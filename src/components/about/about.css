@@ -1,3 +1,7 @@
+#about {
+  background-color: var(--about-bg-color);
+}
+
 .about-text {
   font-size: 1.3rem;
   margin-bottom: 2vh;

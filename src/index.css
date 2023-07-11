@@ -5,6 +5,7 @@
   --text-color: #dedede;
   --toggle-button: url(./assets/light.svg) no-repeat;
   --project-bg-color: #aec1e3;
+  --about-bg-color: #ac5c08;
 
   /* font-family: Domine, system-ui, Avenir, Helvetica, Arial, serif;
   line-height: 1.5;
@@ -20,6 +21,7 @@
   --text-color: #000;
   --toggle-button: url(./assets/dark.svg) no-repeat;
   --project-bg-color: #3263b7;
+  --about-bg-color: #f8b01f;
 
   /* font-family: Domine, system-ui, Avenir, Helvetica, Arial, serif;
   line-height: 1.5;
