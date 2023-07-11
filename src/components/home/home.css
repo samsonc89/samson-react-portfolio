@@ -70,4 +70,8 @@
   #home > h2 {
     padding-left: 0;
   }
+  .home-angle,
+  .home-angle::after {
+    height: 50px;
+  }
 }
