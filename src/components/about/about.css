@@ -1,5 +1,6 @@
 #about {
   background-color: var(--about-bg-color);
+  padding-bottom: 10vh;
 }
 
 .about-text {
