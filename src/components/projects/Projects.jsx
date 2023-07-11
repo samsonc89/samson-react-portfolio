@@ -12,6 +12,7 @@ const Projects = () => {
           return <ProjectCard projectData={project} key={project.id} />;
         })}
       </div>
+      <div className="project-angle"></div>
     </div>
   );
 };

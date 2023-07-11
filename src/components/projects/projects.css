@@ -1,9 +1,9 @@
 #projects {
   margin-bottom: 5vh;
-  padding-bottom: 10vh;
   background-color: var(--project-bg-color);
   width: 100%;
   align-items: center;
+  position: relative;
 }
 
 .projects-container {
@@ -11,6 +11,7 @@
   flex-wrap: wrap;
   gap: 20px;
   max-width: 700px;
+  padding-bottom: 10vh;
 }
 
 .project-card {
@@ -52,6 +53,25 @@
   width: 3.2vh;
 }
 
+.project-angle {
+  background-color: var(--bg-color);
+
+  /* clip-path: polygon(0 0, 100% 100%, 0 100%); */
+  width: 100vw;
+  height: 100px;
+}
+.project-angle::after {
+  content: " ";
+  background-color: var(--project-bg-color);
+
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+  transform: skewY(0.001deg);
+  width: 100vw;
+  height: 100px;
+  right: 0;
+  position: absolute;
+}
+
 @media screen and (max-width: 480px) {
   #projects {
     margin-bottom: 10vh;
@@ -67,5 +87,10 @@
   .icon-wrapper {
     height: 3vh;
     width: 3vh;
+  }
+
+  .project-angle,
+  .project-angle::after {
+    height: 50px;
   }
 }
