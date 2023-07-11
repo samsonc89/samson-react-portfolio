@@ -8,14 +8,6 @@
     "live": "https://samsonc89.github.io/cc-benefits-tracker/"
   },
   {
-    "id": 2,
-    "thumbnail": "react-landing-page.png",
-    "title": "React Landing Page",
-    "description": "This project was used to practice working building out a page with React.",
-    "code": "https://github.com/samsonc89/react-landing-page",
-    "live": "https://samsonc89.github.io/react-landing-page/"
-  },
-  {
     "id": 3,
     "thumbnail": "weather.png",
     "title": "Weather App",
