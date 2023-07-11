@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const CssIcon = ({ name }) => {
   return (
     <div className="skills-icon-wrapper">
