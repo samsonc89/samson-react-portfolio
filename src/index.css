@@ -1,9 +1,11 @@
 :root {
   --bg-color: #2e5393;
-  --project-bg-color: #3b67b5;
+  --project-card-bg-color: #3b67b5;
   --heading-color: #ffffff;
   --text-color: #dedede;
   --toggle-button: url(./assets/light.svg) no-repeat;
+  --project-bg-color: #aec1e3;
+
   /* font-family: Domine, system-ui, Avenir, Helvetica, Arial, serif;
   line-height: 1.5;
   font-weight: 400;
@@ -13,7 +15,7 @@
 
 :root.light {
   --bg-color: #ffffff;
-  --project-bg-color: #f2f2f2;
+  --project-card-bg-color: #f2f2f2;
   --heading-color: #000000;
   --text-color: #000;
   --toggle-button: url(./assets/dark.svg) no-repeat;
@@ -50,7 +52,7 @@ html {
 }
 
 body {
-  margin: 0 15vw;
+  margin: 0;
   text-align: center;
 }
 
@@ -58,16 +60,22 @@ svg {
   fill: var(--text-color);
 }
 
+#root {
+  width: 100%;
+}
 .main-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 .section-container {
+  padding: 0 15vw;
   display: flex;
   flex-direction: column;
   scroll-margin-top: 9vh;
-  max-width: 700px;
+  /* max-width: 700px; */
 }
 
 .section-heading {
@@ -82,9 +90,6 @@ svg {
 1025px — 1200px: Desktops, large screens */
 
 @media screen and (max-width: 480px) {
-  body {
-    margin: 0 10vw;
-  }
   .section-container {
     max-width: 100%;
   }
