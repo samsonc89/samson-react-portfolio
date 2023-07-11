@@ -1,6 +1,6 @@
-const CssIcon = () => {
+const CssIcon = ({ name }) => {
   return (
-    <>
+    <div className="skills-icon-wrapper">
       <svg
         className="skills-icon"
         xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,8 @@ const CssIcon = () => {
           d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"
         />
       </svg>
-    </>
+      <p>{name}</p>
+    </div>
   );
 };
 
