@@ -1,6 +1,7 @@
-const ReactIcon = () => {
+/* eslint-disable react/prop-types */
+const ReactIcon = ({ name }) => {
   return (
-    <>
+    <div className="skills-icon-wrapper">
       <svg
         className="skills-icon"
         xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +21,8 @@ const ReactIcon = () => {
         ></path>
         <circle cx="24" cy="24" r="4" fill="#80deea"></circle>
       </svg>
-    </>
+      <p>{name}</p>
+    </div>
   );
 };
 
