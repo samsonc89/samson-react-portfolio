@@ -1,8 +1,29 @@
 #home {
-  height: 90vh;
+  height: 80vh;
   padding-top: 25vh;
   /* justify-content: center; */
   position: relative;
+  padding-bottom: -25vh;
+  overflow: hidden;
+}
+
+.home-angle {
+  background-color: var(--bg-color);
+
+  /* clip-path: polygon(0 0, 100% 100%, 0 100%); */
+  width: 100vw;
+  height: 100px;
+}
+.home-angle::after {
+  content: " ";
+  background-color: var(--project-bg-color);
+
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+  transform: skewY(0.001deg);
+  width: 100vw;
+  height: 100px;
+  right: 0;
+  position: absolute;
 }
 
 #home > h2 {
@@ -43,7 +64,7 @@
 
 @media screen and (max-width: 480px) {
   #home {
-    padding-top: 10vh;
+    padding-top: 15vh;
   }
 
   #home > h2 {
