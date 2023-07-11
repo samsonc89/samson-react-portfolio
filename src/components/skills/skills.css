@@ -1,5 +1,5 @@
 #skills {
-  height: 50vh;
+  height: 70vh;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -39,6 +39,7 @@
 @media screen and (max-width: 480px) {
   #skills {
     height: 90vh;
+    scroll-margin-top: 15vh;
   }
 
   .skills-icon {
