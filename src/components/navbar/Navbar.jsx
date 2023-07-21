@@ -36,17 +36,28 @@ function toggleLocalStorageItem() {
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <NavLinks />
-      <button
-        id="btn--theme-toggle"
-        onClick={(e) => {
-          e.preventDefault();
-          toggleLocalStorageItem();
-          toggleDarkClass();
-        }}
-      ></button>
-    </div>
+    <nav className="navbar">
+      <div className="nav-wrapper">
+        <div className="toggle-menu">
+          <span></span>
+          <span className="middle-span"></span>
+          <span></span>
+        </div>
+        <div className="nav-links-wrapper">
+          <div className="nav-links">
+            <NavLinks />
+          </div>
+        </div>
+        <button
+          id="btn--theme-toggle"
+          onClick={(e) => {
+            e.preventDefault();
+            toggleLocalStorageItem();
+            toggleDarkClass();
+          }}
+        ></button>
+      </div>
+    </nav>
   );
 };
 
