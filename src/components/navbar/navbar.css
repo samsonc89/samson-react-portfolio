@@ -1,18 +1,39 @@
 .navbar {
-  padding: 0 15vw;
   background-color: var(--bg-color);
   display: flex;
-  flex-direction: row;
-  gap: 20px;
-  height: 10vh;
+  min-height: 5rem;
   width: 100%;
-  align-items: center;
   font-weight: bolder;
   position: sticky;
   top: 0;
   z-index: 1;
 }
 
+.nav-wrapper {
+  padding: 0 15vw;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.toggle-menu {
+  display: none;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+
+.toggle-menu span {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
 #btn--theme-toggle {
   margin-left: auto;
   background: var(--toggle-button);
@@ -20,4 +41,27 @@
   height: 20px;
   width: 20px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .toggle-menu {
+    display: block;
+  }
+
+  .nav-links-wrapper {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: inherit;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* position: absolute;
+    top: 100%;
+    right: 0; */
+    background-color: var(--bg-color);
+  }
 }
