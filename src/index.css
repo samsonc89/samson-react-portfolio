@@ -1,5 +1,6 @@
 :root {
   --bg-color: #2e5393;
+  --bg-accent-color: #3e67ad;
   --project-card-bg-color: #3b67b5;
   --heading-color: #ffffff;
   --text-color: #dedede;
@@ -16,6 +17,7 @@
 
 :root.light {
   --bg-color: #ffffff;
+  --bg-accent-color: #e7e7e7;
   --project-card-bg-color: #f2f2f2;
   --heading-color: #000000;
   --text-color: #000;
