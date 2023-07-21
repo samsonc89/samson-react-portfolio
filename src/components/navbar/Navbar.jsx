@@ -1,7 +1,7 @@
 import "./navbar.css";
 
 const NavLinks = () => (
-  <>
+  <div className="nav-links">
     <p>
       <a href="#home">Home</a>
     </p>
@@ -14,7 +14,7 @@ const NavLinks = () => (
     <p>
       <a href="#about">About</a>
     </p>
-  </>
+  </div>
 );
 
 function isDark() {
@@ -43,11 +43,9 @@ const Navbar = () => {
           <span className="middle-span"></span>
           <span></span>
         </div>
-        <div className="nav-links-wrapper">
-          <div className="nav-links">
-            <NavLinks />
-          </div>
-        </div>
+
+        <NavLinks />
+
         <button
           id="btn--theme-toggle"
           onClick={(e) => {

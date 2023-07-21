@@ -54,20 +54,18 @@
     background-color: var(--text-color);
   }
 
-  .nav-links-wrapper {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: inherit;
-  }
   .nav-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    /* position: absolute;
+    position: absolute;
     top: 100%;
-    right: 0; */
+    right: 0;
     background-color: var(--bg-color);
+  }
+
+  .active {
+    display: flex;
   }
 }
