@@ -19,8 +19,8 @@
 
 .toggle-menu {
   display: none;
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   background-color: var(--bg-accent-color);
   border-radius: 50%;
 
@@ -44,6 +44,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .nav-wrapper {
+    padding: 0 10vw;
+  }
   .toggle-menu {
     display: flex;
   }

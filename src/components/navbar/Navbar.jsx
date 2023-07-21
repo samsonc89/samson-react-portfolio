@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./navbar.css";
 
+// eslint-disable-next-line react/prop-types
 const NavLinks = ({ isShowing }) => (
   <div className={`nav-links ${isShowing}`}>
     <p>
