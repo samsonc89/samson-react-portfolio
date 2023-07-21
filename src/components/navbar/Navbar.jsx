@@ -1,7 +1,8 @@
+import { useState } from "react";
 import "./navbar.css";
 
-const NavLinks = () => (
-  <div className="nav-links">
+const NavLinks = ({ isShowing }) => (
+  <div className={`nav-links ${isShowing}`}>
     <p>
       <a href="#home">Home</a>
     </p>
@@ -35,16 +36,19 @@ function toggleLocalStorageItem() {
 }
 
 const Navbar = () => {
+  const [isShowing, setIsShowing] = useState(false);
+  let showingClass = isShowing ? "showing" : "";
+
   return (
     <nav className="navbar">
       <div className="nav-wrapper">
-        <div className="toggle-menu">
+        <div onClick={() => setIsShowing(!isShowing)} className="toggle-menu">
           <span></span>
           <span className="middle-span"></span>
           <span></span>
         </div>
 
-        <NavLinks />
+        <NavLinks isShowing={showingClass} />
 
         <button
           id="btn--theme-toggle"

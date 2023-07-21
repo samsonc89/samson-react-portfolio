@@ -55,7 +55,7 @@
   }
 
   .nav-links {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -65,7 +65,7 @@
     background-color: var(--bg-color);
   }
 
-  .active {
+  .showing {
     display: flex;
   }
 }
