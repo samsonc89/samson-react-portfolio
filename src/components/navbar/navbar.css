@@ -19,15 +19,15 @@
 
 .toggle-menu {
   display: none;
-  height: 50px;
-  width: 50px;
-  background-color: blue;
-}
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--bg-accent-color);
+  border-radius: 50%;
 
-.toggle-menu span {
-  width: 20px;
-  height: 3px;
-  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }
 
 .nav-links {
@@ -45,7 +45,13 @@
 
 @media screen and (max-width: 480px) {
   .toggle-menu {
-    display: block;
+    display: flex;
+  }
+
+  .toggle-menu span {
+    width: 50%;
+    height: 2%;
+    background-color: var(--text-color);
   }
 
   .nav-links-wrapper {
