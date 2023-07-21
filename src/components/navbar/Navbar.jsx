@@ -2,19 +2,27 @@ import { useState } from "react";
 import "./navbar.css";
 
 // eslint-disable-next-line react/prop-types
-const NavLinks = ({ isShowing }) => (
+const NavLinks = ({ isShowing, setIsShowing }) => (
   <div className={`nav-links ${isShowing}`}>
     <p>
-      <a href="#home">Home</a>
+      <a href="#home" onClick={() => setIsShowing(!isShowing)}>
+        Home
+      </a>
     </p>
     <p>
-      <a href="#projects">Projects</a>
+      <a href="#projects" onClick={() => setIsShowing(!isShowing)}>
+        Projects
+      </a>
     </p>
     <p>
-      <a href="#skills">Skills</a>
+      <a href="#skills" onClick={() => setIsShowing(!isShowing)}>
+        Skills
+      </a>
     </p>
     <p>
-      <a href="#about">About</a>
+      <a href="#about" onClick={() => setIsShowing(!isShowing)}>
+        About
+      </a>
     </p>
   </div>
 );
@@ -49,7 +57,7 @@ const Navbar = () => {
           <span></span>
         </div>
 
-        <NavLinks isShowing={showingClass} />
+        <NavLinks isShowing={showingClass} setIsShowing={setIsShowing} />
 
         <button
           id="btn--theme-toggle"
