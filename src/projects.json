@@ -3,7 +3,7 @@
     "id": 2,
     "thumbnail": "sitter.png",
     "title": "Sitter",
-    "description": "This project was built with React to emulate a business offering pet sitting service",
+    "description": "This project was built with React to emulate a business offering pet sitting service, based on an existing company.",
     "code": "https://github.com/samsonc89/otter-replica",
     "live": "https://samsonc89.github.io/otter-replica/"
   },
