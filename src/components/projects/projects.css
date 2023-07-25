@@ -49,8 +49,8 @@
 }
 
 .icon-wrapper {
-  height: 3.2vh;
-  width: 3.2vh;
+  height: 2rem;
+  width: 2rem;
 }
 
 .project-angle {
@@ -75,6 +75,7 @@
 @media screen and (max-width: 480px) {
   #projects {
     margin-bottom: 10vh;
+    padding: 0 2vw;
   }
   .projects-container {
     justify-content: center;
@@ -86,8 +87,8 @@
   }
 
   .icon-wrapper {
-    height: 3vh;
-    width: 3vh;
+    height: 1.5rem;
+    width: 1.5rem;
   }
 
   .project-angle,
