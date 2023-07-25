@@ -5,7 +5,7 @@ import projectData from "../../projects.json";
 
 const Projects = () => {
   return (
-    <div className="section-container" id="projects">
+    <section id="projects">
       <h1 className="section-heading">Projects</h1>
       <div className="projects-container">
         {projectData.map((project) => {
@@ -13,7 +13,7 @@ const Projects = () => {
         })}
       </div>
       <div className="project-angle"></div>
-    </div>
+    </section>
   );
 };
 

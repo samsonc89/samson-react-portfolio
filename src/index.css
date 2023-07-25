@@ -75,12 +75,11 @@ svg {
   align-items: center;
   position: relative;
 }
-.section-container {
+section {
   padding: 0 15vw;
   display: flex;
   flex-direction: column;
   scroll-margin-top: 9vh;
-  /* max-width: 700px; */
 }
 
 .section-heading {

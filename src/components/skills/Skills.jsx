@@ -7,7 +7,7 @@ import ReactIcon from "../../assets/ReactIcon";
 
 const Skills = () => {
   return (
-    <div className="section-container" id="skills">
+    <section id="skills">
       <h1 className="section-heading">Skills & Tools</h1>
       <div className="skills-container">
         <HtmlIcon name={"HTML5"} />
@@ -16,7 +16,7 @@ const Skills = () => {
         <ReactIcon name={"React"} />
       </div>
       <div className="skills-angle"></div>
-    </div>
+    </section>
   );
 };
 

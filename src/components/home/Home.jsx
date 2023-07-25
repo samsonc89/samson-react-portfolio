@@ -4,7 +4,7 @@ import "./home.css";
 const Home = () => {
   return (
     <>
-      <div className="section-container" id="home">
+      <section id="home">
         <h1 className="section-heading">Hello, I'm Samson.</h1>
         <h2>I'm a restaurant owner turned frontend web developer.</h2>
         <h2>
@@ -21,7 +21,7 @@ const Home = () => {
             </span>
           </span>
         </h2>
-      </div>
+      </section>
       <div className="home-angle"></div>
     </>
   );
