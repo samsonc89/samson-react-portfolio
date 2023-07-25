@@ -6,7 +6,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div id="footer">
+    <footer>
       <div className="footer-icon">
         <a href="https://github.com/samsonc89" target="_blank" rel="noreferrer">
           <GitIcon />
@@ -26,7 +26,7 @@ const Footer = () => {
           <EmailIcon />
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 

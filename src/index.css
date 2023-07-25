@@ -68,7 +68,7 @@ svg {
 #root {
   width: 100%;
 }
-.main-container {
+main {
   width: 100%;
   display: flex;
   flex-direction: column;

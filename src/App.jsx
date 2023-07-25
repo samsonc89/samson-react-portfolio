@@ -2,14 +2,16 @@ import { Navbar, Home, Projects, Skills, About, Footer } from "./components";
 
 function App() {
   return (
-    <div className="main-container">
+    <>
       <Navbar />
-      <Home />
-      <Projects />
-      <Skills />
-      <About />
+      <main>
+        <Home />
+        <Projects />
+        <Skills />
+        <About />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
 
