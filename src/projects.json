@@ -2,10 +2,10 @@
   {
     "id": 2,
     "thumbnail": "sitter.png",
-    "title": "Sitter (Site Replica)",
-    "description": "This project was built with React to let credit card churners keep track of their unused benefits.",
-    "code": "https://github.com/samsonc89/cc-benefits-tracker",
-    "live": "https://samsonc89.github.io/cc-benefits-tracker/"
+    "title": "Sitter",
+    "description": "This project was built with React to emulate a business offering pet sitting service",
+    "code": "https://github.com/samsonc89/otter-replica",
+    "live": "https://samsonc89.github.io/otter-replica/"
   },
   {
     "id": 1,
