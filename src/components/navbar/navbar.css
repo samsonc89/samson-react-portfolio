@@ -10,11 +10,13 @@
 }
 
 .nav-wrapper {
+  margin: 0 auto;
   padding: 0 15vw;
   display: flex;
   width: 100%;
   align-items: center;
   position: relative;
+  max-width: 1700px;
 }
 
 .toggle-menu {

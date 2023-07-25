@@ -49,8 +49,8 @@ const Navbar = () => {
   let showingClass = isShowing ? "showing" : "";
 
   return (
-    <nav className="navbar">
-      <div className="nav-wrapper">
+    <nav className="navbar ">
+      <div className="nav-wrapper  width-limit">
         <div onClick={() => setIsShowing(!isShowing)} className="toggle-menu">
           <span></span>
           <span className="middle-span"></span>

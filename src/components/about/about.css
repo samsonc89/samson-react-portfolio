@@ -1,11 +1,18 @@
 #about {
   background-color: var(--about-bg-color);
-  padding-bottom: 10vh;
+  /* padding-bottom: 10vh; */
+  padding: 0 25vw 10vh;
 }
 
 .about-text {
   font-size: 1.3rem;
   margin-bottom: 2vh;
+}
+
+@media screen and (max-width: 1024px) {
+  #about {
+    padding: 0 15vw 10vh;
+  }
 }
 
 @media screen and (max-width: 480px) {
