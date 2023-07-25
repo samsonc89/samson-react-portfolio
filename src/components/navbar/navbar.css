@@ -55,7 +55,8 @@
 
   .toggle-menu span {
     width: 50%;
-    height: 2%;
+    height: 3px;
+    border-radius: 15px;
     background-color: var(--text-color);
   }
 

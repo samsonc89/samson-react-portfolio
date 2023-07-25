@@ -94,8 +94,8 @@ section {
 1025px — 1200px: Desktops, large screens */
 
 @media screen and (max-width: 480px) {
-  .section-container {
+  section {
     max-width: 100%;
-    scroll-margin-top: 11vh;
+    scroll-margin-top: 12vh;
   }
 }
