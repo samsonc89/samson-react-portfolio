@@ -6,7 +6,10 @@ const Home = () => {
     <>
       <section id="home">
         <h1 className="section-heading">Hello, I'm Samson.</h1>
-        <h2>I'm a restaurant owner turned frontend web developer.</h2>
+        <h2>
+          I'm a former restaurant owner, and a lover of learning trying to
+          transition into frontend development.{" "}
+        </h2>
         <h2>
           Read more{" "}
           <span className="highlight-container highlight-about">

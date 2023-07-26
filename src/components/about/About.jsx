@@ -7,10 +7,10 @@ const About = () => {
       <h1 className="section-heading">About</h1>
       <div className="about-content">
         <p className="about-text">
-          Hi there! I'm a seasoned restaurant owner with a passion for
-          innovation and a desire to constantly evolve. After years of managing
-          my own successful restaurants, I'm excited to dive into the world of
-          frontend development and bring my unique perspective to this field.
+          Hi there! I'm a seasoned restaurant owner with a passion for learning
+          and a desire to build things. After years of managing my own
+          successful restaurants, I'm excited to dive into the world of frontend
+          development and learn how to build my skills in this field.
         </p>
         <p className="about-text">
           With a strong background in customer service and a love for
