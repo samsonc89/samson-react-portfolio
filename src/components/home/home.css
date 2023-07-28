@@ -27,6 +27,7 @@
 #home > h2 {
   text-align: start;
   margin-bottom: 5px;
+  line-height: 2;
 }
 
 .highlight-container,
