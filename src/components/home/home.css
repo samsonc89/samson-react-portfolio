@@ -68,6 +68,7 @@
   #home > h2 {
     padding-left: 0;
     font-size: 1.25rem;
+    line-height: 1.5;
   }
   .home-angle,
   .home-angle::after {
