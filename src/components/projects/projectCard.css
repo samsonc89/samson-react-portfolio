@@ -1,0 +1,4 @@
+.new-project-card {
+  background-color: var(--project-card-bg-color);
+  display: flex;
+}
